@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container mx-auto p-4">
+      <h1 class="text-2xl font-semibold mb-4">To-Do List</h1>
+      <div class="flex">
+        <input
+          type="text"
+          id="new-task"
+          class="w-4/5 rounded-l-lg py-2 px-4"
+          placeholder="Add a new task"
+        />
+        <button
+          id="add-task"
+          class="w-1/5 bg-blue-500 rounded-r-lg text-white px-4"
+        >
+          Add
+        </button>
+      </div>
+      <ul id="todo-list" class="mt-4">
+        <!-- To-Do items will be added here -->
+      </ul>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
